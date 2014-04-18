@@ -1,0 +1,21 @@
+{
+  "name": "Toucher",
+  "version": "0.0.1",
+  "description": "Sets up and manages strangers touching each other",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Eddie Cameron",
+  "license": "MIT",
+  "dependencies": {
+    "node-uuid": "~1.4.1",
+    "socket.io": "~0.9.16",
+    "express": "~4.0.0"
+  },
+  "subdomain": "eddiecameron-TouchNode",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
